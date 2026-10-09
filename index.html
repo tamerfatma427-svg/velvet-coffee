@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Velvet Coffee - freshly brewed coffee made with passion, served with love.">
+    <title>Velvet Coffee</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Icons (Tabler) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.42.0/dist/tabler-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">VELVET COFFEE</div>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HOME -->
+        <section class="home" id="home">
+            <video autoplay muted loop playsinline class="bg-video">
+                <source src="coffe.mp4" type="video/mp4">
+            </video>
+
+            <div class="container">
+                <p class="small-heading">YOUR DAILY DOSE OF HAPPINESS</p>
+                <h1>A PERFECT CUP OF COFFEE FOR EVERY MOMENT.</h1>
+                <p>Discover the rich aroma and unforgettable taste of freshly brewed coffee. Every cup is made to bring comfort, joy, and inspiration to your day.</p>
+                <div class="btn-group">
+                    <a href="#menu" class="btn btn-primary">EXPLORE OUR MENU</a>
+                    <a href="#about" class="btn btn-outline">OUR STORY</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-image">
+                    <img src="barista.webp" alt="Barista pouring latte art" loading="lazy">
+                </div>
+                <p class="small-heading">OUR STORY</p>
+                <h2>MORE THAN JUST A CUP OF COFFEE.</h2>
+                <p>At Velvet Coffee, we believe that coffee is more than just a drink. It's a moment of peace, a reason to smile, and an opportunity to connect with others.</p>
+                <p>We carefully select our coffee beans and prepare every cup with passion to give you an unforgettable experience.</p>
+                <a href="#menu" class="btn btn-outline">DISCOVER MORE</a>
+            </div>
+        </section>
+
+        <!-- MENU -->
+        <section class="menu" id="menu">
+            <div class="container">
+                <p class="small-heading">DISCOVER OUR FLAVORS</p>
+                <h2>OUR SPECIAL COFFEE MENU</h2>
+                <p class="section-desc">From rich espresso to creamy lattes, discover your new favorite drink.</p>
+
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <img src="Espresso photo.webp" alt="Espresso" loading="lazy">
+                        <h3>ESPRESSO</h3>
+                        <p>Rich, bold, and full of flavor.</p>
+                        <span class="price">80 EGP</span>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="Cappuccino photo.jfif" alt="Cappuccino" loading="lazy">
+                        <h3>CAPPUCCINO</h3>
+                        <p>Perfectly balanced espresso with steamed milk and foam.</p>
+                        <span class="price">110 EGP</span>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="Latte photo.jfif" alt="Caramel latte" loading="lazy">
+                        <h3>CARAMEL LATTE</h3>
+                        <p>Smooth espresso blended with creamy milk and sweet caramel.</p>
+                        <span class="price">130 EGP</span>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="Iced coffee photo.jfif" alt="Iced coffee" loading="lazy">
+                        <h3>ICED COFFEE</h3>
+                        <p>Refreshing coffee served over ice for a cool experience.</p>
+                        <span class="price">100 EGP</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALLERY -->
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <p class="small-heading">A GLIMPSE INTO OUR WORLD</p>
+                <h2>COFFEE MOMENTS</h2>
+                <div class="gallery-grid">
+                    <img src="gallery1.webp" alt="Steaming cup" loading="lazy">
+                    <img src="gallery2.webp" alt="Coffee beans" loading="lazy">
+                    <img class="bbb" src="gallery3.webp" alt="Coffee being poured" loading="lazy">
+                    <img src="gallery4.webp" alt="Latte art" loading="lazy">
+                    <img src="gallery5.webp" alt="Cozy coffee shop" loading="lazy">
+                    <img src="gallery6.webp" alt="Barista at work" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <p class="small-heading">WE'D LOVE TO HEAR FROM YOU</p>
+                <h2>LET'S HAVE A COFFEE!</h2>
+                <p class="ff">Have a question or simply want to say hello? We'd love to hear from you.</p>
+
+                <div class="contact-info">
+                    <div><i class="ti ti-mail" aria-hidden="true"></i> <span>hello@velvetcoffee.com</span></div>
+                    <div><i class="ti ti-map-pin" aria-hidden="true"></i> <span>Cairo, Egypt</span></div>
+                    <div><i class="ti ti-clock" aria-hidden="true"></i> <span>9:00 AM - 11:00 PM</span></div>
+                </div>
+
+                <form class="contact-form">
+                    <input type="text" name="name" placeholder="Full Name" aria-label="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" aria-label="Email Address" required>
+                    <textarea name="message" placeholder="Your Message" aria-label="Your Message" rows="4" required></textarea>
+                    <button type="submit" class="btn btn-primary btn-block">SEND MESSAGE</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="logo">VELVET COFFEE</div>
+        <p>Made with passion, served with love.</p>
+        <div class="footer-links">
+            <a href="#home">HOME</a> |
+            <a href="#about">ABOUT US</a> |
+            <a href="#menu">OUR MENU</a> |
+            <a href="#gallery">GALLERY</a> |
+            <a href="#contact">CONTACT</a>
+        </div>
+        <div class="copyright">
+            © 2026 Velvet Coffee. All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
